@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3/org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="site.css">
+<link rel="icon" type="image/jpg" href="nasa.jpg"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>RARA AVIS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<style type="text/css">
+html,body {
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+}
+body {
+  font-family:Verdana;
+  background-color:#eaeaea;
+  background-image:url("textured.png");
+}
+.myslides {
+  display:none;
+}
+.slideshow {
+  display:none;
+}
+.main {
+  display:none;
+}
+.content{
+  display:none;
+}
+footer {
+  display:none;
+}
+</style>
+
+</head>
+
+<body onload="myFunction()">
+
+
+
+<div id="loading" style="width:100%;height:100vh;background-color:#050026;">
+<img id="imagine" src="twitter.png" style="width:7vw;height:10vh;position:relative;top:50%;left:50%;transform:translate(-50%,-50%);">
+</div>
+
+
+
+<div class="slideshow">
+
+<img src="bigres.jpg" class="myslides">
+<img src="rail.jpg" class="myslides">
+<img src="creditnasa.jpg" class="myslides">
+
+<a class="prev" onclick="plusDivs(-1)">&#10094</a>
+<a class="next" onclick="plusDivs(+1)">&#10095</a>
+
+<div class="bulletpoints">
+
+<span class="dots" onclick="currentDiv(1)"></span>
+<span class="dots" onclick="currentDiv(2)"></span>
+<span class="dots" onclick="currentDiv(3)"></span>
+</div>
+
+</div>
+
+
+<div class="main">
+  <header>
+    <nav>
+
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      
+      <div class="menu">
+      <ul>
+        <li class="tabs"><a  href="index2.html">Rara Avis</a></li>
+        <li class="centertabs"><a href="index2.html">Geneza</a> </li>
+        <li class="centertabs"><a href="index2.html">Evolutia</a></li>
+        <li class="centertabs"><a href="index2.html">Ecologia</a></li>
+        <li class="centertabs"><a href="index2.html">Quiz</a></li>
+        <li class="tabs"><a href="index2.html">Bibliografie</a></li>
+      </ul>
+
+    </div>
+
+    </nav>
+  </header>
+</div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+  $(".menu-icon").on("click",function() {
+    $("nav ul").toggleClass("showing");
+
+  })
+
+});
+
+$(window).on("scroll",function() {
+    if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+}
+    else {
+      $('nav').removeClass('black');
+    }
+})
+
+</script>
+
+
+
+<div class="content">
+
+
+<div style="border-bottom:5px solid #1A1A1A;margin-bottom:30px;">
+<p style="font-weight:1000;text-transform:uppercase;font-family:helvetica;font-size:20px;margin-bottom:7px;">Introduction</p>
+</div>
+
+<div>
+<p class="text" style="padding:0;margin:0;font-variant-ligatures: none;">
+  HeiComputer science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. It is the scientific and practical approach to computation and its applications and the systematic study of the feasibility, structure, expression, and mechanization of the methodical procedures (or algorithms) that underlie the acquisition, representation, processing, storage, communication of, and access to, information. An alternate, more succinct definition of computer science is the study of automating algorithmic processes that scale. A computer scientist specializes in the theory of computation and the design of computational systems.[1] See glossary of computer science.
+
+Its fields can be divided into a variety of theoretical and practical disciplines. Some fields, such as computational complexity theory (which explores the fundamental properties of computational and intractable problems), are highly abstract, while fields such as computer graphics emphasize real-world visual applications. Other fields still focus on challenges in implementing computation. For example, programming language theory considers various approaches to the description of computation, while the study of computer programming itself investigates various aspects of the use of programming language and complex systems. Human–computer interaction considers the challenges in making computers and computations useful, usable, and universally accessible to humans.
+proach to computation and its applications and the systematic study of the feasibility, structure, expression, and mechanization of the methodical procedures (or algorithms) that underlie the acquisition, representation, processing, storage, communication of, and access to, information. An alternate, more succinct definition of computer science is the study of automating algorithmic processes that scale. A computer scientist specializes in the theory of computation and the design of computational systems.[1] See glossary of computer science.
+</p>
+</div>
+
+<div style="border-bottom:5px solid #1A1A1A;margin-bottom:30px;">
+<p style="font-weight:1000;text-transform:uppercase;font-family:helvetica;font-size:20px;margin-bottom:7px;">Rara Avis Meaning</p>
+</div>
+
+<div style="width:100%;">
+<img src="nasa.jpg" style="width:80%;height:80vh;display:block;margin-left:auto;margin-right:auto;border-radius:10%;box-shadow:7px 7px 10px #282828;">
+<p class="text" style="font-variant-ligatures: none;">
+ Hello from the other side, working at something awesomeIts fields can be divided into a variety of theoretical and practical disciplines. Some fields, such as computational complexity theory (which explores the fundamental properties of computational and intractable problems), are highly abstract, while fields such as computer graphics emphasize real-world visual applications. Other fields still focus on challenges in implementing computation. For example, programming language theory considers various approaches to the description of computation, while the study of computer programming itself investigates various aspects of the use of programming language and complex systems. Human–computer interaction considers the challenges in making computers and computations useful, usable, and universally accessible to humans.Its fields can be divided into a variety of theoretical and practical disciplines. Some fields, such as computational complexity theory (which explores the fundamental properties of computational and intractable problems), are highly abstract, while fields such as computer graphics emphasize real-world visual applications. Other fields still focus on challenges in implementing computation. For example, programming language theory considers various approaches to the description of computation, while the study of computer programming itself investigates various aspects of the use of programming language and complex systems. Human–computer interaction considers the challenges in making computers and computations useful, usable, and universall</p>
+</div>
+ 
+<div style="border-bottom:5px solid #1A1A1A;">
+<p style="font-weight:1000;text-transform:uppercase;font-family:helvetica;font-size:20px;margin-bottom:10px;">Facts</p>
+</div>
+
+<div class="container" style="width:100%;">
+
+  <div class="video">
+<iframe width="100%" height="330" src="https://www.youtube.com/embed/qsN1LglrX9s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <div class="video">
+<iframe width="100%" height="330" src="https://www.youtube.com/embed/wNDGgL73ihY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <div class="video">
+<iframe width="100%" height="330" src="https://www.youtube.com/embed/4VX6Nh6YLYk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+</div>
+
+<div style="border-bottom:5px solid #1A1A1A;margin:0;padding:0;">
+</div>
+
+
+
+</div>
+
+
+<script type="text/javascript">
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("myslides");
+  var y= document.getElementsByClassName("dots");
+  if (n > x.length) {slideIndex = 1;}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < y.length; i++) {
+      y[i].className = y[i].className.replace(" page"," ");
+  }
+  x[slideIndex-1].style.display = "block";
+  y[slideIndex-1].className += " page";
+
+}
+
+function myFunction() {
+
+    setTimeout(showPage,2500);
+    var element = document.getElementById("imagine");
+    var element2 = document.getElementById("loading");
+    element.classList.add("pulsing");
+    element2.classList.add("goup")
+}
+
+function showPage() {
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("foot").style.display="block";
+  var y= document.getElementsByClassName("slideshow");
+  for (var i=0;i<y.length;++i)
+  {
+    y[i].style.display = "block";
+  }
+  var y = document.getElementsByClassName("main");
+  for (var i=0;i<y.length;++i)
+  {
+    y[i].style.display = "block";
+  }
+  var y = document.getElementsByClassName("content");
+  for (var i=0;i<y.length;++i)
+  {
+    y[i].style.display = "block";
+  }
+ 
+}
+</script>
+
+
+
+<footer id="foot">
+ <p style="text-align:center;font-size:20px;padding-bottom:30px;">©2018 GEOINFO</p>
+</footer>
+
+
+</body>
+</html>

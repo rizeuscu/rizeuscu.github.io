@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3/org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="site.css">
+<link rel="icon" type="image/jpg" href="nasa.jpg"/>
+<title>RARA AVIS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style type="text/css">
+body {
+	margin:0;
+	padding:0;
+}
+</style>
+</head>
+
+<body>
+    
+<div class="divimg">
+<img class="imagini" src="nasa.jpg">
+<img class="imagini" src="nasa.jpg">
+<img class="imagini" src="stayonearth10.jpg">
+<img class="imagini" src="bigres.jpg">
+</div>
+
+<script>
+var myIndex = 0;
+var j=0,p=0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("imagini");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 2;}     
+    x[myIndex-1].style.display = "block";
+    if (j==0) {
+        myIndex=2;j=1;
+        p=setTimeout(carousel,5000);
+    }
+    else {
+        p=setTimeout(carousel, 7300);
+    }    
+}
+
+
+</script>
+
+<p class="question">Vrei sa patrunzi in lumea geografiei?<br/>Esti la doar un click distanta!</p>
+<div class="button" onclick="location.href='index2.html';">
+<p id="buttonid">exploreaza</p>
+
+</div>
+
+</body>
+
+</html>
