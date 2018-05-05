@@ -1184,7 +1184,7 @@ padding:0;
 	margin-top:0;
 	padding:0;
 	transform: rotate(45deg);
-	background-color:blue;
+	background-color:#a00670;
  animation:margin 3s infinite,rotatie 2s infinite;
 }
  @keyframes margin {
